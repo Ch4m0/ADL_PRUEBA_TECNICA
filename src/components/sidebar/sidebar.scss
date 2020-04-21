@@ -1,0 +1,29 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 0 5px -2px #888;
+  padding-top: 40px;
+
+  .box-logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #888;
+    margin-bottom: 50px;
+  }
+
+  ul {
+    display: inherit;
+    flex-direction: column;
+    align-items: flex-start;
+    li {
+      list-style-type: none;
+      padding: 20px;
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+  }
+}

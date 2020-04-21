@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 210px;
+
+  .top-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .available-balance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .box-footer-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .item-footer-card {
+      display: inherit;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .due-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    strong {
+      text-align: initial;
+    }
+  }
+
+  .spent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    small {
+      margin-bottom: 5px;
+    }
+  }
+
+  .fa-cc-visa {
+    font-size: 25px;
+  }
+
+  .fa-piggy-bank {
+    font-size: 25px;
+  }
+}

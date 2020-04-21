@@ -1,0 +1,30 @@
+.shell {
+  height: 5px;
+  width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 13px;
+  padding: 3px;
+}
+
+.bar {
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+  height: 5px;
+  width: 15px;
+  border-radius: 9px;
+  span {
+    float: right;
+    padding: 4px 5px;
+    color: #fff;
+    font-size: 0.7em;
+  }
+}
+
+button {
+  margin: 10px;
+  border: 1px solid #aaa;
+  background: none;
+  border-radius: 50%;
+  padding: 5px 8px;
+  outline: none;
+  cursor: pointer;
+}

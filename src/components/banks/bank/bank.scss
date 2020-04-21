@@ -1,0 +1,29 @@
+.bank {
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.title-product {
+  width: 100%;
+  height: 50px;
+  background-color: #c2c2dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+i {
+  margin-left: 20px;
+  font-size: 30px;
+}
